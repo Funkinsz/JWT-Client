@@ -1,0 +1,20 @@
+.header {
+  padding: 10px 20px;
+  box-shadow: var(--box-shadow);
+  color: var(--primary);
+  background-color: white;
+  img {
+    width: 70px;
+  }
+  .desktopHeader {
+  }
+  i {
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
